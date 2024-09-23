@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div id="outer">
+        <header id="header"></header>
+        <div class="logo">
+            <img src="images/css.jpeg" alt="Logo de CSS">
+        </div>
+    
+        <div class="titulo">
+            <h1>Tarea 2 CSS3</h1>
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Modelo de caja</a></li>
+                <li><a href="propiedadesCSS.html">Propiedades CSS para visualización y posicionamiento</a></li>
+                <li><a href="flexbox.html">Flexbox en CSS3</a></li>
+               
+            </ul>
+        </nav>
+        <div class="temas">
+            <h2>Temas a desarrollar</h2>
+            <h3>Flexbox en CSS3 </h3>
+            <p>Flexbox es un método de diseño de página unidimensional para compaginar elementos en filas o columnas. <br>
+            Los elementos de contenido se ensanchan para rellenar el espacio adicional y se encogen para caber en espacios mas pequeños.</p>
+            <div>
+                <p class="tema1">Flex Container</p>
+                <p class="tema1">-flex-direction:</p>
+                <p>La propiedad flex-direction especifíca la dirección de los elementos flexibles. </p>
+                <details>
+                <summary class="informacion"><b>Más información</b></summary>
+                    <p class="tema2">ROW:</p>
+                    <p>Los elementos se colocan horizontalmente de izquierda a derecha.</p>
+                    <div id="myDiv">
+                        <div id="myMain">
+                            <div class="color1">blue div</div>
+                            <div class="color2">pink div</div>
+                            <div class="color3">yellow div</div>
+                            <div class="color4">green div</div>
+                        </div>
+                    </div>
+
+                    <p class="tema2">ROW-REVERSE:</p>
+                    <p>Los elementos se colocan horizontalmente de derecha a izquierda.</p>
+                    <div id="myDiv">
+                        <div id="myMain2">
+                            <div class="color1">blue div</div>
+                            <div class="color2">pink div</div>
+                            <div class="color3">yellow div</div>
+                            <div class="color4">green div</div>
+                        </div>
+                    </div>
+                    <p class="tema2">COLUMN:</p>
+                    <p>Los elementos se colocan verticalmente de arriba hacia abajo.</p>
+                    <div id="myDiv">
+                        <div id="myMain3">
+                            <div class="color1">blue div</div>
+                            <div class="color2">pink div</div>
+                            <div class="color3">yellow div</div>
+                            <div class="color4">green div</div>
+                        </div>
+                    </div>
+
+                    <p class="tema2">COLUMN-REVERSE:</p>
+                    <p>Los elementos se colocan verticalmente de abajo hacia arriba.</p>
+                    <div id="myDiv">
+                        <div id="myMain4">
+                            <div class="color1">blue div</div>
+                            <div class="color2">pink div</div>
+                            <div class="color3">yellow div</div>
+                            <div class="color4">green div</div>
+                        </div>
+                    </div>
+            </div>
+        </details>
+            <p class="tema1">-flex-wrap:</p>
+            <p>La propiedad flex-wrap especifíca si los elementos flexibles deben envolverse o no.</p>
+            <details>
+                <summary class="informacion"><b>Más información</b></summary>
+            <p class="tema2">NOWRAP:</p>
+            <p>Valor por defecto: Los elementos se mantienen en una sola línea , incluso si no caben.</p>
+            <div>
+                <div id="myDIV2">
+                    <div id="mymain5">
+                        <div class="color1">blue div</div>
+                        <div class="color2">pink div</div>
+                        <div class="color3">yellow div</div>
+                        <div class="color4">green div</div>
+                    </div>
+                    </div>
+                    <p class="tema2">WRAP:</p>
+                    <p>Los elementos se envuelven en múltiples líneas si es necesario.</p>
+                    <div id="myDIV2">
+                        <div id="mymain6">
+                            <div class="color1">blue div</div>
+                            <div class="color2">pink div</div>
+                            <div class="color3">yellow div</div>
+                            <div class="color4">green div</div>
+                        </div>
+                        </div>
+
+                    <p class="tema2">WRAP-REVERSE:</p>
+                    <p>Similar a wrap, pero las líneas se apilan en sentido inverso.</p>
+                    <div id="myDIV2">
+                        <div id="mymain7">
+                            <div class="color1">blue div</div>
+                            <div class="color2">pink div</div>
+                            <div class="color3">yellow div</div>
+                            <div class="color4">green div</div>
+                        </div>
+                        </div>
+            </div>
+        </details>
+            <p class="tema1">-flex-flow:</p>
+            <p>La propiedad flex-flow es una forma que combina las propiedades de flex-direction y flex-wrap.</p>
+            <details>
+                <summary class="informacion"><b>Más información</b></summary>
+            <p class="tema2">FLEX-FLOW: column-reverse y wrap</p>
+            <div id="myDIV2">
+                <div id="mymain8">
+                    <div class="color1">blue div</div>
+                    <div class="color2">pink div</div>
+                    <div class="color3">yellow div</div>
+                    <div class="color4">green div</div>
+                </div>
+                </div>
+            </details>
+                <p class="tema1">-Justify-content:</p>
+                <p>La propiedad justify-content alinea los elementos del contenedor flexible cuando estos no utilizan todo el espacio disponible en el eje principal (horizontalmente).</p>
+                <details>
+                    <summary class="informacion"><b>Más información</b></summary>
+                <p class="tema2">FLEX-START</p>
+                <p>Valor por defecto: Los elementos se alinean al inicio del contenedor.</p>
+                <div id="myDIV3">
+                    <div style='background-color:coral;'></div>
+                    <div style='background-color:lightblue;'></div>
+                    <div style='background-color:pink;'></div>
+                    </div>
+
+                <p class="tema2">FLEX-END</p>
+                <p>Los elementos se alinean al final del contenedor.</p>
+                <div id="myDIV4">
+                    <div style='background-color:coral;'></div>
+                    <div style='background-color:lightblue;'></div>
+                    <div style='background-color:pink;'></div>
+                    </div>
+
+                    <p class="tema2">CENTER</p>
+                    <p>Los elementos se alinean en el centro del contenedor.</p>
+                    <div id="myDIV5">
+                        <div style='background-color:coral;'></div>
+                        <div style='background-color:lightblue;'></div>
+                        <div style='background-color:pink;'></div>
+                        </div>
+
+                    <p class="tema2">SPACE-BETWEEN</p>
+                    <p>Los elementos se distribuyen con espacio igual entre ellos, pero sin espacio a los lados.</p>
+                    <div id="myDIV6">
+                        <div style='background-color:coral;'></div>
+                        <div style='background-color:lightblue;'></div>
+                        <div style='background-color:pink;'></div>
+                        </div>
+
+                    <p class="tema2">SPACE-AROUND</p>
+                    <p>Los elementos se distribuyen con espacio igual alrededor (mitad de espacio en los extremos).</p>
+                    <div id="myDIV7">
+                        <div style='background-color:coral;'></div>
+                        <div style='background-color:lightblue;'></div>
+                        <div style='background-color:pink;'></div>
+                        </div>
+
+                    <p class="tema2">SPACE-EVENLY</p>
+                    <p>Los elementos se distribuyen con espacio igual entre ellos y en los extremos.</p>
+                    <div id="myDIV8">
+                        <div style='background-color:coral;'></div>
+                        <div style='background-color:lightblue;'></div>
+                        <div style='background-color:pink;'></div>
+                        </div>
+
+                    </details>
+                        <p class="tema1">-Align-items:</p>
+                        <p>La propiedad align-items especifica la alineación predeterminada para los elementos dentro de un contenedor flexible o de cuadrícula.</p>
+                        <details>
+                            <summary class="informacion"><b>Más información</b></summary>
+                        <p class="tema2">STRETCH</p>
+                        <P>Valor por defecto: Los elementos se estiran para llenar todo el contenedor transversalmente.</P>
+                        <div id="main1">
+                            <div style="background-color:rgb(231, 82, 71);min-height:30px;">Este div tiene poco contenido.</div>
+                            <div style="background-color:lightblue;min-height:50px;">Este div tiene más contenido y generalmente esto puede ser un problema al alinear varios elementos Div.</div>  
+                            <div style="background-color:lightgreen;min-height:190px;">Este div tiene muchos saltos de linea.</div>
+                          </div>
+
+                        <p class="tema2">CENTER</p>
+                        <P>Los elementos se alinean en el centro del eje transversal.</P>
+                        <div id="main2">
+                            <div style="background-color:rgb(231, 82, 71);min-height:30px;">Este div tiene poco contenido.</div>
+                            <div style="background-color:lightblue;min-height:50px;">Este div tiene más contenido y generalmente esto puede ser un problema al alinear varios elementos Div.</div>  
+                            <div style="background-color:lightgreen;min-height:190px;">Este div tiene muchos saltos de linea.</div>
+                          </div>
+
+                        <p class="tema2">FLEX-START</p>
+                        <P>Los elementos se alinean al inicio del eje transversal.</P>
+                        <div id="main3">
+                            <div style="background-color:rgb(231, 82, 71);min-height:30px;">Este div tiene poco contenido.</div>
+                            <div style="background-color:lightblue;min-height:50px;">Este div tiene más contenido y generalmente esto puede ser un problema al alinear varios elementos Div.</div>  
+                            <div style="background-color:lightgreen;min-height:190px;">Este div tiene muchos saltos de linea.</div>
+                          </div>
+
+                        <p class="tema2">FLEX-END</p>
+                        <P>Los elementos se alinean al final del eje transversal.</P>
+                        <div id="main4">
+                            <div style="background-color:rgb(231, 82, 71);min-height:30px;">Este div tiene poco contenido.</div>
+                            <div style="background-color:lightblue;min-height:50px;">Este div tiene más contenido y generalmente esto puede ser un problema al alinear varios elementos Div.</div>  
+                            <div style="background-color:lightgreen;min-height:190px;">Este div tiene muchos saltos de linea.</div>
+                          </div>
+
+                        <p class="tema2">BASELINE</p>
+                        <P>Los elementos se alinean según la línea base del texto.</P>
+                        <div id="main4">
+                            <div style="background-color:rgb(231, 82, 71);min-height:30px;">Este div tiene poco contenido.</div>
+                            <div style="background-color:lightblue;min-height:50px;">Este div tiene más contenido y generalmente esto puede ser un problema al alinear varios elementos Div.</div>  
+                            <div style="background-color:lightgreen;min-height:190px;">Este div tiene muchos saltos de linea.</div>
+                          </div>
+                        </details>  
+                          <p class="tema1">-Align-content:</p>
+                          <p>La propiedad align-content especifica cómo se distribuyen las líneas flexibles a lo largo del eje transversal en un contenedor flexbox.</p>
+                          <details>
+                            <summary class="informacion"><b>Más información</b></summary>
+                          <p class="tema2">STRETCH</p>
+                          <p>Las líneas se estiran para llenar el contenedor.</p>
+                        <div id="main">
+                            <div class="color1"></div>
+                            <div class="color2"></div>
+                            <div class="color3"></div>
+                            <div class="color4"></div>
+                    </div>
+                    <p class="tema2">FLEX-END</p>
+                    <p>Las líneas se agrupan al final del contenedor.</p>
+                    <div id="main1">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
+                        <div class="color3"></div>
+                        <div class="color4"></div>
+                    </div>
+                          </details>
+                    <p class="tema1">-Flex Items:</p>
+                     <details>
+                        <summary class="informacion"><b>Más información</b></summary>
+                    <p class="tema2">ORDER</p>
+                    <P>La propiedad order especifica el orden de los elementos flexibles.</P>
+                    <div class="flex-items">
+                        <div style="order: 3">1</div>
+                        <div style="order: 2">2</div>
+                        <div style="order: 4">3</div>
+                        <div style="order: 1">4</div>
+                      </div>
+
+                      <p class="tema2">FLEX-GROW</p>
+                      <p>La propiedad flex-grow especifica cuánto crecerá un elemento flexible en relación con el resto de los elementos flexibles.</p>
+                      <p>Hacer que el tercer elemento flexible crezca ocho veces más rápido que los otros elementos flexibles.</p>
+                      <div class="flex-items2">
+                        <div style="flex-grow: 1">1</div>
+                        <div style="flex-grow: 1">2</div>
+                        <div style="flex-grow: 8">3</div>
+                      </div>
+
+                      <p class="tema2">FLEX-SHRINK </p>
+                      <p>La propiedad flex-shrink especifica cuánto se encogerá un elemento flexible en relación con el resto de los elementos flexibles.</p>
+                      <div class="shrink">
+                        <div>1</div>
+                        <div>2</div>
+                        <div style="flex-shrink: 5">3</div>
+                        <div>4</div>
+                        <div>5</div>
+                        <div>6</div>
+                        <div>7</div>
+                        <div>8</div>
+                        <div>9</div>
+                        <div>10</div>
+                      </div>
+
+                      <p class="tema2">FLEX-BASIS</p>
+                      <p>La propiedad flex-basis especifíca la longitud inicial de un elemento flexible.</p>
+                      <div class="basis">
+                        <div>1</div>
+                        <div>2</div>
+                        <div style="flex-basis:200px">3</div>
+                        <div>4</div>
+                      </div>
+
+                      <p class="tema2">FLEX</p>
+                      <p>La propiedad flex es una forma abreviada de propiedad para las propiedades flex-grow, flex-shrinky flex-basis</p>
+                      <div class="flexp">
+                        <div>1</div>
+                        <div>2</div>
+                        <div style="flex: 0 0 200px">3</div>
+                        <div>4</div>
+                      </div>
+
+                      <p class="tema2">ALIGN-SELF</p>
+                      <p>La propiedad align-self especifica la alineación del elemento seleccionado dentro del contenedor flexible. <br>
+                        La propiedad align-self anula la alineación predeterminada establecida por la propiedad align-items del contenedor.</p>
+                        <div class="alignSelf">
+                            <div>1</div>
+                            <div>2</div>
+                            <div style="align-self: center">3</div>
+                            <div>4</div>
+                          </div>
+                     </details>
+                    
+                     <p class="tema1">-Flex Responsive:</p>
+                     <p>Si se desea crear un diseño de dos columnas para la mayoría de los tamaños de pantalla y un diseño de una columna para tamaños de pantalla pequeños (como teléfonos y tabletas), se puede cambiar flex-direction de row a column en un punto de interrupción específico (800 px en el ejemplo):</p>
+                     <details>
+                        <summary class="informacion"><b>Más información</b></summary>
+                        <div class="flex-responsive">
+                            <div class="flex-item-left">1</div>
+                            <div class="flex-item-right">2</div>
+                          </div>
+                     </details> 
+                     <br>
+                     <footer>
+                        <credit class="final">© 2024 Daniela Ruiz Gutiérrez. </credit><br>
+                        <credit class="final">Derechos Reservados. </credit> <br>
+                        <credit class="final">Correo: jeruizgu@est.utn.ac.cr</credit>
+                    </footer>
+
+            </div>
+            </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="outer">
+        <header id="header"></header>
+        <div class="logo">
+            <img src="images/css.jpeg" alt="Logo de CSS">
+        </div>
+    
+        <div class="titulo">
+            <h1>Tarea 2 CSS3</h1>
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Modelo de caja</a></li>
+                <li><a href="propiedadesCSS.html">Propiedades CSS para visualización y posicionamiento</a></li>
+                <li><a href="flexbox.html">Flexbox en CSS3</a></li>
+               
+            </ul>
+        </nav>
+        <div class="temas">
+            <h2>Temas a desarrollar</h2>
+            <h3>Propiedades CSS para visualización y posicionamiento</h3>
+            <div>
+            <p class="tema1">Position</p>
+            <p>La propiedad position es una propiedad de CSS que se puede utilizar para modificar la posición donde aparecerá un elemento.</p>
+            <p class="tema1">Position: Static</p>
+            <p class="Ejemplos">Ejemplo:</p>
+        </div>
+            <div class="figura1"></div>
+            <div class="static1"></div>
+            <div>
+            <p class="tema1">Position: Relative</p>
+            <p class="Ejemplos">Ejemplo:</p>
+            <div class="figura1"></div>
+            <div class="relative1"></div>
+        </div>
+        <div>
+            <p class="tema1">Position: Absolute</p>
+            <p class="Ejemplos">Ejemplo:</p>
+            
+            <div class="container">
+            <div class="middle">
+            <div class="absolute2"></div>
+        </div>
+        </div>
+        </div>
+                <div class="fixed">Un ejemplo de fixed</div>
+                <div>
+                    <p class="tema1">Float y Clear</p>
+                    <p class="tema1">Float</p>
+                    <p>La propiedad float ubica un elemento al lado izquierdo o derecho de su contenedor.</p>
+                    <p class="tema1">Clear</p>
+                    <p>La propiedad clear especifíca si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido debajo de ellos.</p>
+                    <p class="Ejemplos">Ejemplos:</p>
+                    <div class="contenedors">
+                    <div class="figura2">Bloque 1</div>
+                    <div class="figura3">Bloque 2</div>
+                </div>
+                    <p class="clear">Este es un párrafo que se ubica después de los dos bloques flotantes, por lo tanto no fluyen a su alrededor, ya que se hizo uso de esta propiedad: clear: both.</p>
+                </div>
+                <div>
+                <p class="tema1">Display: Block</p>
+                <p> El display block establece que un elemento ocupará todo el espacio disponible por defecto y el siguiente elemento a este se situará debajo.</p>
+                <p class="Ejemplos">Ejemplo:</p>
+                <div class="elementBlock">Elemento 1</div>
+                <div class="elementBlock">Elemento 2</div>
+                <div class="elementBlock">Elemento 3</div>
+            </div>
+            <div>
+                <p class="tema1">Display: Inline</p>
+                <p>El display inline establece que un elemento ocupará el espacio del contenido del mismo y el siguiente elemento se situará a la derecha.</p>
+                <p class="Ejemplos">Ejemplo:</p>
+                 <span class="elementInline">Elemento 1</span>
+                 <span class="elementInline">Elemento 2</span>
+                 <span class="elementInline">Elemento 3</span>
+            </div>
+            <div>
+                <p class="tema1">Display: Inline-block</p>
+                <p>El display inline-block combina las ventajas de bloque de colocar medidas al elemento y propiedades del modelo de caja correctamente; con las ventajas de inline de color un elemento seguido de otro en el mismo espacio.</p>
+                <p class="Ejemplos">Ejemplo:</p>
+                <div class="elementInlineBlock">Elemento 1</div>
+                <div class="elementInlineBlock">Elemento 2</div>
+                <div class="elementInlineBlock">Elemento 3</div>
+            </div>
+            <div>
+                <p class="tema1">Display: None</p>
+                <p>El display none desactiva la visualización de un elemento, como si el elemento no existiera.</p>
+                <div class="elementNone">Elemento 1</div>
+                <div class="elementNone">Elemento 2</div>
+            </div>
+             <div>
+            <p class="tema1">Overflow</p>
+            <p class="tema1">Visible:</p>
+            <p>Predeterminado. El desbordamiento no se recorta, el contenido se muestra fuera del cuadro del elemento.</p>
+            <p class="overflowVisible">Puede utilizar la propiedad overflow cuando desee tener un mejor control del diseño. La propiedad overflow especifíca qué sucede si el contenido desborda el cuadro de un elemento.</p><br><br>
+        </div><br><br>
+
+        <div>
+            <br><p class="tema1">Hidden:</p>
+            <p>El desbordamiento se recorta y el resto del contenido será invisible.</p>
+            <p class="overflowHidden">Puede utilizar la propiedad overflow cuando desee tener un mejor control del diseño. La propiedad overflow especifíca qué sucede si el contenido desborda el cuadro de un elemento.</p>
+        </div>
+        <div>
+            <br><p class="tema1">Scroll:</p>
+            <p>Se recorta el desbordamiento y se agrega una barra de desplazamiento para ver el resto del contenido.</p>
+            <p class="overflowScroll">Puede utilizar la propiedad overflow cuando desee tener un mejor control del diseño. La propiedad overflow especifíca qué sucede si el contenido desborda el cuadro de un elemento.</p>
+        </div>
+        <div>
+            <br><p class="tema1">Auto:</p>
+            <p>Similar a Scroll, pero agrega barras de desplazamiento solo cuando es necesario.</p>
+            <p class="overflowAuto">Puede utilizar la propiedad overflow cuando desee tener un mejor control del diseño. La propiedad overflow especifíca qué sucede si el contenido desborda el cuadro de un elemento.</p>
+        </div>
+        <div>
+            <p class="tema1">Visibility</p>
+            <p>La propiedad visibility es similar a la propiedad display pero mucho más limitada. Mientras que display permite cambiar el tipo de caja de un elemento, la propiedad visibility sólo permite hacer visible o invisible una caja.</p>
+            <p class="tema1">Visible:</p>
+            <p>El valor por defecto de visibility es visible, que hace que la caja del elemento se vea de forma normal.</p>
+            <div class="elementVisible"></div>
+            <div class="elementVisible"></div>
+            <div class="elementVisible"></div>
+        </div>
+        <div>
+            <p class="tema1">Hidden:</p>
+            <p>Otro de los valores definidos por visibility es hidden, que hace que la caja del elemento sea invisible.</p>
+            <div class="elementVisible"></div>
+            <div class="elementHidden"></div>
+            <div class="elementVisible"></div>
+        </div>
+        <div>
+            <p class="tema1">Collapse:</p>
+            <p>Cuando definimos el valor de visibility en collapse, el elemento se ocultará como el caso anterior pero no ocupará espacio en la página. Será como si se hubiera colapsado hasta ser invisible, pero seguirá estando.</p>
+            <div class="elementVisible"></div>
+            <div class="elementVisible"></div>
+            <p class="elementCollapse">Este párrafo se encuentra debajo de los dos bloques.</p>
+        </div>
+        <div>
+        <p class="tema1">Z-index</p>
+        <p>El z-index es una propiedad que se utiliza para controlar el orden de apilamiento de elementos superpuestos en una página web. Los elementos con un valor de z-index más alto se muestran sobre los elementos con un valor más bajo. Esta propiedad se aplica a elementos que tengan una posición diferente de static (por ejemplo, relative, absolute, fixed) y también a elementos con propiedades de transparencia, transformación, filtros y más.</p>
+        <div class="zIndex1"></div>
+        <div class="zIndex2"></div>
+        <div class="zIndex3"></div>
+
+        </div>
+
+        
+        <footer>
+            <credit class="final">© 2024 Daniela Ruiz Gutiérrez. </credit><br>
+            <credit class="final">Derechos Reservados. </credit> <br>
+            <credit class="final">Correo: jeruizgu@est.utn.ac.cr</credit>
+        </footer>
+            </div> 
+   
+
+</body>
+</html>

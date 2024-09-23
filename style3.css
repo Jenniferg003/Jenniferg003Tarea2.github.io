@@ -1,0 +1,450 @@
+#header {
+	height: 120px;
+	background-color: rgb(52, 74, 97);
+    padding: 3.5%;
+	}
+.logo {
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin: 0.5%;
+}
+
+#menu {
+	height:35px;
+	line-height:35px;
+	padding:0 10px;
+    background-color: rgb(11, 6, 59);
+	}
+
+    #menu ul {
+        display: flex; 
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        margin-top: -35px;
+    }
+
+    #menu li {
+        float:left;
+        }
+    #menu li a {
+        padding:0 15px;
+        display:block;
+        color:#ffffff;
+        margin-right:2px;
+        text-decoration: none;
+        font-size: 22px;
+        }
+.titulo {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    height: 50px;            
+    width: 100%;           
+    position: absolute;
+    top: 0;  
+}
+h1 {
+    font-family: Verdana;
+    color: white;
+    font-size: 50px;
+    
+}
+
+body {
+    background: url("images/fondo.jpeg");
+    width: 99.5%;
+}
+h2 {
+    color: rgb(126, 71, 255);
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-size: 28px;
+    margin: 2%;
+}
+
+.temas {
+        position:  relative;
+        width: 94%;
+        margin: 40px;
+        background: rgb(15, 21, 29);
+        border: initial;
+        overflow: overlay;
+    }
+    p {
+        text-align: justify;
+        color: white;
+        margin: 25px;
+        font-size: 23px;
+        font-family: 'Times New Roman';
+    }
+    .tema1 {
+        color: aquamarine;
+    }
+    .tema2 {
+        color: rgb(194, 124, 245)
+    }
+    #myDiv {
+        height: 200px;
+        width: 300px;
+        background-color: #ffffff;
+    }
+    #myMain {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    .color1 {
+        background-color: lightblue;
+    }
+    .color2 {
+        background-color: lightcoral;
+    }
+    .color3 {
+        background-color: rgb(253, 253, 162);
+    }
+    .color4 {
+        background-color: lightgreen
+    }
+    #myMain2 {
+        height: 100px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #myMain3 {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    #myMain4 {
+        height: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #myDIV2 {
+        width:200px;
+        height:200px;
+        background-color:#FFFFFF;
+      }
+      #mymain5 {
+        width:100%;
+        height: 100px;
+        display: flex;
+        flex-wrap:nowrap;
+      }
+      #mymain6 {
+        width:100%;
+        height: 100px;
+        display: flex;
+        flex-wrap:wrap;
+      }
+      #mymain7 {
+        width:100%;
+        height: 100px;
+        display: flex;
+        flex-wrap:wrap-reverse;
+      }
+      #mymain8 {
+        width:100%;
+        height: 100px;
+        display: flex;
+        flex-flow:column-reverse wrap;
+      }
+      #myDIV3 {
+        height:200px;
+        width: 500px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: flex-start;
+      }
+      #myDIV3 div {
+        width: 80px;
+        height: 80px; 
+      }
+      #myDIV4 {
+        height:200px;
+        width: 500px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: flex-end;
+      }
+      #myDIV4 div {
+        width: 80px;
+        height: 80px; 
+      }
+      #myDIV5 {
+        height:200px;
+        width: 500px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+      }
+      #myDIV5 div {
+        width: 80px;
+        height: 80px; 
+      }
+      #myDIV6 {
+        height:200px;
+        width: 500px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+      }
+      #myDIV6 div {
+        width: 80px;
+        height: 80px; 
+      }
+      #myDIV7 {
+        height:200px;
+        width: 500px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-around;
+      }
+      #myDIV7 div {
+        width: 80px;
+        height: 80px; 
+      }
+      #myDIV8 {
+        height:200px;
+        width: 500px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #myDIV8 div {
+        width: 80px;
+        height: 80px; 
+      }
+      #main1 {
+        width: 220px;
+        height: 300px;
+        border: 1px solid white; 
+        display: flex;
+        align-items: stretch;
+      }
+      
+      #main1 div {
+        flex: 1;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+      #main2 {
+        width: 220px;
+        height: 300px;
+        border: 1px solid white; 
+        display: flex;
+        align-items: center;
+      }
+      
+      #main2 div {
+        flex: 1;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+      #main3 {
+        width: 220px;
+        height: 300px;
+        border: 1px solid white; 
+        display: flex;
+        align-items: flex-start;
+      }
+      
+      #main3 div {
+        flex: 1;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+      #main4 {
+        width: 220px;
+        height: 300px;
+        border: 1px solid white; 
+        display: flex;
+        align-items: flex-end;
+      }
+      
+      #main4 div {
+        flex: 1;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+      #main5 {
+        width: 220px;
+        height: 300px;
+        border: 1px solid white; 
+        display: flex;
+        align-items: baseline;
+      }
+      
+      #main5 div {
+        flex: 1;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+      #main {
+        background-color:#FFFFFF;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: stretch;
+      }
+      
+      #main div {
+        width: 100%;
+        height: 40px; 
+      }
+      #main1 {
+        background-color:#FFFFFF;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+      }
+      #main1 div {
+        width: 100%;
+        height: 40px; 
+      }
+      .flex-items {
+        display: flex;
+        align-items: stretch;
+        background-color: #f1f1f1;
+      }
+      
+      .flex-items>div {
+        background-color: indianred;
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      .flex-items2 {
+        display: flex;
+        align-items: stretch;
+        background-color: #f1f1f1;
+      }
+      
+      .flex-items2 > div {
+        background-color: indianred;
+        color: white;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      .shrink {
+        display: flex;
+        align-items: stretch;
+        background-color: #f1f1f1;
+      }
+      
+      .shrink > div {
+        background-color: DodgerBlue;
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      .basis {
+        display: flex;
+        align-items: stretch;
+        background-color: #f1f1f1;
+      }
+      
+      .basis > div {
+        background-color: indigo;
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+      .flexp {
+        display: flex;
+        align-items: stretch;
+        background-color: #f1f1f1;
+      }
+      
+      .flexp > div {
+        background-color: DodgerBlue;
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      .alignSelf {
+        display: flex;
+        height: 200px;
+        background-color: #f1f1f1;
+      }
+      
+      .alignSelf > div {
+        background-color: DodgerBlue;
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      .informacion {
+        color: tomato;
+        padding: 2%;
+        font-size: 20px;
+      }
+      .flex-responsive {
+          display: flex;
+          flex-direction: row;
+          font-size: 30px;
+          text-align: center;
+        }
+        
+        .flex-item-left {
+          background-color: #f1f1f1;
+          padding: 10px;
+          flex: 50%;
+        }
+        
+        .flex-item-right {
+          background-color: dodgerblue;
+          padding: 10px;
+          flex: 50%;
+        }
+        @media (max-width: 800px) {
+          .flex-responsive {
+            flex-direction: column;
+          }
+        }
+        footer {
+          background-color: rgb(52, 74, 97);
+          color: white;
+          font-family: Verdana;
+      }
+
+

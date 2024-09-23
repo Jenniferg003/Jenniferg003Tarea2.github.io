@@ -1,0 +1,293 @@
+#header {
+	height: 120px;
+	background-color: rgb(52, 74, 97);
+    padding: 3.5%;
+	}
+.logo {
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin: 0.5%;
+}
+
+#menu {
+	height:35px;
+	line-height:35px;
+	padding:0 10px;
+    background-color: rgb(11, 6, 59);
+	}
+
+    #menu ul {
+        display: flex; 
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        margin-top: -35px;
+    }
+
+    #menu li {
+        float:left;
+        }
+    #menu li a {
+        padding:0 15px;
+        display:block;
+        color:#ffffff;
+        margin-right:2px;
+        text-decoration: none;
+        font-size: 22px;
+        }
+.titulo {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    height: 50px;            
+    width: 100%;           
+    position: absolute;
+    top: 0;  
+}
+h1 {
+    font-family: Verdana;
+    color: white;
+    font-size: 50px;
+    
+}
+
+body {
+    background: url("images/fondo.jpeg");
+    width: 99.5%;
+}
+h2 {
+    color: rgb(126, 71, 255);
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-size: 28px;
+    margin: 2%;
+}
+
+.temas {
+        position:  relative;
+        width: 94%;
+        margin: 40px;
+        background: rgb(15, 21, 29);
+        border: initial;
+        overflow: overlay;
+    }
+    p {
+        text-align: justify;
+        color: white;
+        margin: 25px;
+        font-size: 23px;
+        font-family: 'Times New Roman';
+    }
+    
+    summary {
+        font-size: 20px;
+        color: aquamarine;
+        margin: 25px;
+    }
+
+    .tema1 {
+        color: aquamarine;
+    }
+    .Ejemplos {
+        color: violet;
+    }
+    .figura1 {
+        background: indigo;
+        width: 200px;
+        height: 100px;
+    }
+    .static1 {
+        background: indianred;
+        position: static;
+        width: 200px;
+        height: 100px;
+    }
+    .relative1 {
+        background: indianred;
+        position: relative;
+        width: 200px;
+        height: 100px;
+        top: -50px;
+        left: 50px;
+    }
+    .container {
+        border: 5px solid indigo;
+        width: 400px;
+        height: 200px;
+        margin: 20px;
+    }
+    .middle {
+       position: relative;
+       border: 5px solid steelblue;
+       width: 200px;
+       height: 100px;
+       margin: 50px;
+    }
+    .absolute2 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: indianred;
+        top: 0;
+        left: 0;
+    }
+    .container2 {
+        font-size: 3rem;
+        background: grey;
+    }
+    .fixed {
+        background: rgb(223, 126, 126);
+        color: black;
+        font-size: 1.5rem;
+        padding: 25px;
+        width: 200px;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+    .figura2 {
+        width: 260px;
+        height: 200px;
+        background-color: indigo;
+        float: left;
+        margin-right: 10px;
+      }
+    
+      .figura3 {
+        width: 260px;
+        height: 200px;
+        background-color: indianred;
+        float: left;
+      }
+      .clear {
+        clear: both;
+      }
+      .contenedors {
+        background: gray;
+        width: 545px;
+        height: 218px;
+      }
+      b {
+    color: rgb(88, 135, 221);
+}
+.elementBlock {
+    display: block;
+    background: lightseagreen;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.elementInline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+}
+.elementInlineBlock {
+    display: inline-block;
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.elementNone {
+    display: none;
+    background-color: lightblue;
+    margin-right: 20px;
+}
+.overflowVisible {
+    width: 300px;
+    height: 70px;
+    background-color: lightseagreen;
+    overflow: visible;
+}
+.overflowHidden {
+    overflow: hidden;
+    width: 300px;
+    height: 70px;
+    background-color: lightseagreen;
+}
+.overflowScroll {
+    overflow: scroll;
+    width: 420px;
+    height: 90px;
+    background-color: lightseagreen;
+}
+.overflowAuto {
+    overflow: auto;
+    width: 300px;
+    height: 70px;
+    background-color: lightseagreen;
+}
+.elementVisible {
+    visibility: visible;
+    display: inline-block;
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.elementHidden {
+    visibility: hidden;
+    display: inline-block;
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.elementCollapse {
+    visibility: collapse;
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.zIndex1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: indigo;
+    z-index: 4;
+    border: 1px solid white;
+    top: -10px;
+    left: 10px;
+}
+.zIndex2 {
+    position: relative;
+    width: 200px; 
+    height: 200px; 
+    background-color: indianred;
+    margin-top: -100px; 
+    z-index: 3;
+    border: 1px solid white;
+    top: -50px;
+    left: 50px;
+}
+.zIndex3 {
+    position: relative;
+    width: 200px; 
+    height: 200px; 
+    background-color: cadetblue;
+    margin-top: -100px; 
+    z-index: 2;
+    border: 1px solid white;
+    top: -40px;
+    left: 40px;
+}
+footer {
+    margin: 10px;
+    background-color: rgb(52, 74, 97);
+    color: white;
+    font-family: Verdana;
+}
